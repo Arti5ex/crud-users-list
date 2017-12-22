@@ -3,3 +3,115 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.create-user{
+  padding: 8px 12px;
+  background-color: #33a733;
+  width: 200px;
+  text-align: center;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.create-user-form-wrapper{
+  padding: 1px 40px 20px;
+  margin: 20px 0;
+  background: #fae9e9;
+  border-radius: 3px;
+  width: 50%;
+}
+form .form-row{
+ padding: 5px 0;
+}
+/* form .form-attribute, */
+form .form-row label
+{
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+form .form-row > div{
+  width: 75%;
+  display: inline-block;
+}
+form .form-row input{
+  width: 100%;
+  box-sizing: border-box;
+}
+form .form-row .birthFields {
+  display: flex;
+  box-sizing: border-box;
+  float: right;
+  justify-content: space-between;
+  width: 100%;
+}
+form .form-row .birthFields input{
+  width: 30%;
+  box-sizing: border-box;
+  text-align: center;
+}
+form .form-row .error{
+  color: red;
+  font-size: 12px;
+  margin: 5px 0 0 0;
+  line-height: 15px;
+}
+form .buttons {
+  text-align: right;
+  padding: 10px 0 0 0;
+}
+form .buttons input {
+  color: #fff;
+  padding: 6px 19px 9px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;  
+  margin-left: 10px; 
+}
+form .buttons input[name='create']{
+  background: #33a733;
+}
+form .buttons input[name='close']{
+  background: #be4d3e;
+}
+.user-update-wrapper{
+  padding: 10px 20px;
+  background: #e9e9e9;
+}
+.user-row {
+  padding: 20px;
+  background: #f0f1f9;
+  margin: 5px 0;
+  border-radius: 3px;
+}
+.user-row .name {
+  display: inline-block;  
+  width: 50%;
+  font-weight: 600;  
+}
+.user-row .buttons {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+.user-row .buttons > div {
+  display: inline-block;
+  cursor: pointer;
+  padding: 3px 7px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 3px;
+  margin-left: 5px;  
+}
+.user-row .buttons .update-button {
+  background: #3e8fbe;  
+}  
+.user-row .buttons .delete-button {
+  background: #be4d3e;  
+}  
